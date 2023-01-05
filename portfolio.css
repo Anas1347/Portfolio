@@ -1,123 +1,148 @@
-*{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
-.title{
-    font-weight: 800;
-    font: size 45px;
+.title {
+  font-weight: 800;
+  font: size 45px;
 }
-.tp {color: rgb(92, 245, 181);
-
+.tp {
+  color: rgb(92, 245, 181);
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 200px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
 }
 nav li {
-    list-style: none;
-    margin-left: 50px;
+  list-style: none;
+  margin-left: 50px;
 }
-nav ul{
-    display: flex;
-    align-items: center;
+nav ul {
+  display: flex;
+  align-items: center;
 }
-.bp{
-    color:#FFFFFF;
-    font-weight: 700;
-    font-size: 20px;
-    border: 0;
-    padding: 18px 35px;
-    height: 64px;
-    border-radius: 5px;
-    background: #FD6E0A;
+.bp {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
 }
-.bnn{
-    margin: 0 100px;
-    display: flex;
-    align-items: center;
+.bnn {
+  margin: 0 100px;
+  display: flex;
+  align-items: center;
 }
-.bt{
-    font-weight:600;
-    font-size: 85px;
-    margin: 20px;
+.bt {
+  font-weight: 600;
+  font-size: 85px;
+  margin: 20px;
 }
-.bst{
-    font-weight: 600;
-    font-size: 45px;
+.bst {
+  font-weight: 600;
+  font-size: 45px;
 }
-.bd {color: #757575;
-    font-size: 18px;
-    margin: 30px;
-
-
+.bd {
+  color: #757575;
+  font-size: 18px;
+  margin: 30px;
 }
 .hd {
-    background-color: #FFF8F3;
-    background-image: url('header_bg.png'), url('Screenshot.png');
-    background-repeat: no-repeat;
-    background-position: bottom right, left;
+  background-color: #fff8f3;
+  background-image: url("header_bg.png"), url("Screenshot.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
 }
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+section {
+  margin-top: 130px;
 }
 .about {
-    text-align: center;
-    margin-top: 130px;
-    background: #FFF8F3;
-    border-radius: 10px;
-    padding:130px 150px ;
-
+  text-align: center;
+  /* margin-top: 130px; */
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
 }
-.abt{
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: 700;
-    font-size: 35px;
-
+.abt {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
 }
-.abtd{
-    color: #757575;
-    font-size: 18px;
-    margin-bottom:30px ;
-
+.abtd {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
-.abtic{
-    display: flex;
-    justify-content: space-around;
+.abtic {
+  display: flex;
+  justify-content: space-around;
 }
-.about .info-title{
-    font-size: 20px;
-    color: #757575;
-
+.about .info-title {
+  font-size: 20px;
+  color: #757575;
 }
-.info-description{
-    font-size: 20px;
-    color: #474747;
-
+.info-description {
+  font-size: 20px;
+  color: #474747;
 }
-.What-I-Do{
+/* .What-I-Do{
  margin-top: 130px;
+} */
+.skills-container {
+  display: flex;
+  gap: 24px;
 }
-.skills-container{
+.skill {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skilldescription {
+  color: #757575;
+}
+.reco{
     display: flex;
     gap: 24px;
 }
-.skill{
-    background: #FFFFFF;
-box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-border-radius: 5px;
-padding: 30px;
-
-}
-.skill-title{
-    font-weight: 700;
-    font-size: 20px;
+.ri{
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
-.skilldescription{
-    color: #757575;
+.ri .ti {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.ri .subti {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom:20px ;
+}
+.ri .desc {
+  color: #757575;
+}
+
+.sect{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
 }
