@@ -53,7 +53,7 @@ nav ul {
 }
 .hd {
   background-color: #fff8f3;
-  background-image: url("header_bg.png"), url("Screenshot.png");
+  background-image: url("header_bg.png"), url("scrnst.png");
   background-repeat: no-repeat;
   background-position: bottom right, left;
 }
